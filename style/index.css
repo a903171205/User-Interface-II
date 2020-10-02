@@ -1,1 +1,65 @@
 /* Add CSS styling here */
+.top{
+    text-align: center;
+    font-size: 20px;
+    border:3px solid black;
+}
+body{
+    border:3px solid black;
+}
+h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 80px;
+    color: #000000;
+    text-align:center;
+    margin-top:100px;
+    margin-bottom:100px;
+    
+}
+.headitem{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow:wrap row;
+    
+}
+  .item{
+    width:5%;
+    height:30px;
+    background:lightgary;
+    border: 1px ridge black;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    padding:10px;
+    color: black;
+    font-size:25px;
+    
+  }
+.topic{
+      font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    color: #000000;
+    text-align:center;
+    margin-top:20px;
+    margin-botton:20px;
+}
+.info{
+  text-align:center;
+  margin-top:50px;
+  margin-botton:100px;
+}
+.picture{
+  margin-top:100px;
+}
+.footer{
+  border:1px solid #dae3dc;
+  width:3000px; height:200px;
+  background: #777875;
+  
+}
+h3{
+  border:1px solid white;
+  height:50px;
+  width:200px;
+  background: white;
+  text-align: center;
+}
